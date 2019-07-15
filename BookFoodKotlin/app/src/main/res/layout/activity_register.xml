@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity"
+        android:background="@drawable/doan"
+>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:layout_above="@+id/ngdung"
+            android:layout_marginBottom="15dp"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mkhau"
+            android:layout_marginBottom="15dp"
+            android:textSize="20dp"
+            android:hint="Username"
+            android:id="@+id/ngdung"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/userID"
+            android:layout_marginBottom="15dp"
+            android:textSize="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/mkhau"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="UserID"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/userID"
+            android:textStyle="italic"
+            android:textSize="20dp"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG KÍ"
+            android:textSize="30dp"
+            android:layout_below="@+id/userID"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:id="@+id/dangki"
+    />
+</RelativeLayout>

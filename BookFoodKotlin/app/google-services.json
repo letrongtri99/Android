@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "192643553012",
+    "firebase_url": "https://fruitapp-741b1.firebaseio.com",
+    "project_id": "fruitapp-741b1",
+    "storage_bucket": "fruitapp-741b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192643553012:android:6f0b32068f836bec",
+        "android_client_info": {
+          "package_name": "com.example.bookfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWN9enPy7oUD8F7b1z_64fdYt2Abuz9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192643553012:android:1284f89ec2f7f360",
+        "android_client_info": {
+          "package_name": "com.example.bookfoodkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192643553012-hgp5mb1rbpp2ib5fqqri1v1708li70rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookfoodkotlin",
+            "certificate_hash": "28191d096a73dcb001264b6bec5c5d0e65acf2e3"
+          }
+        },
+        {
+          "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWN9enPy7oUD8F7b1z_64fdYt2Abuz9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192643553012:android:98a33edc7a3d63e0",
+        "android_client_info": {
+          "package_name": "com.example.fruit_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWN9enPy7oUD8F7b1z_64fdYt2Abuz9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

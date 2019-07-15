@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:title="Thêm sản phẩm"
+        android:id="@+id/product"
+        />
+    <item
+        android:title="Xem lịch sử mua hàng"
+        android:id="@+id/history"
+        />
+</menu>

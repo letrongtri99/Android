@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/doan"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Food"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_above="@+id/user"
+        android:layout_marginBottom="15dp"
+        />
+    <EditText
+        android:text="TrongTri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pass"
+        android:layout_marginBottom="15dp"
+        android:textSize="20dp"
+        android:hint="Username"
+        android:id="@+id/user"
+        />
+    <EditText
+        android:text="1234"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register"
+        android:layout_marginBottom="15dp"
+        android:textSize="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí tài khoản?"
+        android:gravity="right"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/register"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG NHẬP"
+        android:textSize="30dp"
+        android:layout_below="@+id/register"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/login"
+        />
+</RelativeLayout>

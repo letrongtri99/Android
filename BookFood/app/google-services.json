@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "192643553012",
+    "firebase_url": "https://fruitapp-741b1.firebaseio.com",
+    "project_id": "fruitapp-741b1",
+    "storage_bucket": "fruitapp-741b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192643553012:android:6f0b32068f836bec",
+        "android_client_info": {
+          "package_name": "com.example.bookfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWN9enPy7oUD8F7b1z_64fdYt2Abuz9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192643553012:android:98a33edc7a3d63e0",
+        "android_client_info": {
+          "package_name": "com.example.fruit_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWN9enPy7oUD8F7b1z_64fdYt2Abuz9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192643553012-s025v66e5s4pj8ukchbasnp6glmol3tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

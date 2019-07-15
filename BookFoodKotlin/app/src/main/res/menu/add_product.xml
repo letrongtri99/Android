@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+            android:title="Tìm kiếm sản phẩm"
+            app:actionViewClass="android.widget.SearchView"
+            app:showAsAction="always"
+            android:icon="@android:drawable/ic_menu_search"
+            android:id="@+id/search_bar"
+    />
+    <item
+        android:title="Thêm sản phẩm"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:id="@+id/add_bar"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Lịch sử mua hàng"
+        android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+        android:id="@+id/history_bar"
+        app:showAsAction="always"
+    />
+
+</menu>

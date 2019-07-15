@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OrderActivityInformation"
+        android:orientation="vertical"
+>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="28dp"
+              android:id="@+id/tenofNgGui"
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="160dp"
+                  android:background="@color/colorOrder"
+                  android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/picofOrder"
+        />
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="130dp"
+                      android:layout_marginTop="12dp"
+                      android:orientation="vertical"
+                      android:layout_marginLeft="15dp"
+        >
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="30dp"
+                      android:id="@+id/tenofSpOrder"
+            />
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+            >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="x"
+                          android:textSize="30dp"
+                />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="30dp"
+                          android:id="@+id/txtofSoLuong"
+                />
+
+            </LinearLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="30dp"
+                      android:id="@+id/txtThanhTien"
+            />
+            </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Thời gian đặt hàng: "
+                  android:textSize="30dp"
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="30dp"
+                  android:id="@+id/timeofOrder"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Trạng thái đơn hàng: "
+                  android:textSize="30dp"
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="30dp"
+                  android:id="@+id/statusofOrder"
+        />
+
+    </LinearLayout>
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="30dp"
+              android:hint="Comment"
+              android:id="@+id/comment"
+    />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="ACCEPT"
+            android:textSize="24dp"
+            android:id="@+id/btnAccept"
+            android:background="@color/colorOrder"
+    />
+
+
+</LinearLayout>
