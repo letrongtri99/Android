@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Trí"
+        android:id="@+id/id1"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Long"
+        android:id="@+id/id2"
+        android:orderInCategory="2"
+        />
+    <item
+        android:title="Out"
+        android:id="@+id/id3"
+        android:orderInCategory="1"
+        />
+    <item
+        android:title="Đi"
+        android:id="@+id/id4"
+        android:orderInCategory="3">
+        <menu>
+            <item
+                android:title="Mail"
+                />
+            <item
+                android:title="Pass"
+                />
+        </menu>
+
+    </item>
+
+
+
+
+</menu>
