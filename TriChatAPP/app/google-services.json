@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "985112474411",
+    "firebase_url": "https://doan1-80315.firebaseio.com",
+    "project_id": "doan1-80315",
+    "storage_bucket": "doan1-80315.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985112474411:android:efe769bc172cd58d",
+        "android_client_info": {
+          "package_name": "com.example.trichatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985112474411-adt8hfrg9dtlvpohl0vqj4btq33qsvu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ3wzo8vhR2A7q-yD7ILFvlnjXZfoXjRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985112474411-adt8hfrg9dtlvpohl0vqj4btq33qsvu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
